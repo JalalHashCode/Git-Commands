@@ -1,0 +1,25 @@
+initial steps to commit & push files from terminal :
+------------------------------------------------
+git init : initialize the local files
+git add file or . : to add files you want to commit 
+git commit -m "any commet " : to commit changes directly without staging
+git remote add origin https://github.com/JalalHashCode/example.git: to add
+origin to workspace (adding a repository) 
+git push -u origin "branch name" 
+git remote rm origin: delete curret origin(repo) 
+git remote -v : know which origin(repo) it is now
+git branch : to know current branch 
+git push -u origin master or main or (any current branch) : to push changes to remote repo
+
+how to create a branch and push from terminal :
+----------------------------------------------
+git branch "somename" : create local branch 
+git checkout "branch name" : to move to another branch
+git push -u origin (branch Name): to push changes to remote repo
+git branch -m <old-branch-name> <new-branch-name>: change the branch name
+git push origin --delete branch name: delete branch from github
+ git branch -d <branch-name>: delete branch from local
+
+-----------------------
+Note: git push -u origin , git push  origin -u (they are the same )
+-----------------------
